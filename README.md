@@ -1,56 +1,27 @@
-# Triggers.do
+# Triggers.do - API Triggers
 
-## Getting Started
-
-If you don't already have a browser extension to pretty-print JSON and make links clickable, start by installing that: <https://extensions.do>
-
-Then you interactively use the API at: <https://triggers.do/api>
+Explore the API at: <https://triggers.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
+    "name": "triggers.do",
     "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
-    "type": "https://apis.do/templates",
+    "url": "https://triggers.do/api",
+    "type": "https://apis.do/primitives",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://triggers.do/api",
+      "getCategory": "https://triggers.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://triggers.do",
+    "login": "https://triggers.do/login",
+    "signup": "https://triggers.do/signup",
+    "subscribe": "https://triggers.do/subscribe",
+    "repo": "https://github.com/drivly/triggers.do"
   },
-  "gettingStarted": [
-    "If you don't already have a JSON Viewer Browser Extension, get that first:",
-    "https://extensions.do"
-  ],
   "examples": {
     "listItems": "https://templates.do/worker"
-  },
-  "user": {
-    "authenticated": false,
-    "plan": "🛠 Build",
-    "browser": "Safari",
-    "os": "Mac OS",
-    "ip": "2606:54c0:76a0:1d18::e:fe",
-    "isp": "iCloud Private Relay",
-    "flag": "🇺🇸",
-    "zipcode": "94088",
-    "city": "Sunnyvale",
-    "metro": "San Francisco-Oak-San Jose",
-    "region": "California",
-    "country": "United States",
-    "continent": "North America",
-    "requestId": "751b42735f76e206-ORD",
-    "localTime": "9/28/2022, 1:55:20 AM",
-    "timezone": "America/Los_Angeles",
-    "edgeLocation": "Chicago",
-    "edgeDistanceMiles": 1833,
-    "recentInteractions": 10
   }
 }
 ```
